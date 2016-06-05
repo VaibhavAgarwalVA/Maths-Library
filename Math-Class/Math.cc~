@@ -1,0 +1,12 @@
+#include "Math.ih"
+
+int main()
+{
+	int a,b;
+	cout<<"Maths Library"<<"\n";
+	cout<<"Enter 2 values"<<"\n";
+	cin>>a>>b;
+	cout<<max(a,b)<<" is bigger. "<<min(a,b)<<" is smaller."<<endl;
+
+	return 0;
+}
